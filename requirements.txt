@@ -1,0 +1,2 @@
+farm-haystack[faiss]==1.11.1
+streamlit==1.12.0
