@@ -1,0 +1,79 @@
+The American (North and South America) horned owls and the Old World eagle-owls make up the genus Bubo, at least as traditionally described. The genus name Bubo is Latin for the Eurasian eagle-owl.
+This genus contains 19 species that are found in many parts of the world. Some of the largest living Strigiformes are in Bubo. Traditionally, only owls with ear-tufts were included in this genus, but that is no longer the case.
+
+
+== Taxonomy ==
+
+The genus Bubo was introduced in 1805 by André Duméril for the horned owls. The type species is the Eurasian eagle-owl. The word bubo is Latin for the Eurasian eagle owl and was used as the specific epithet for the species by Carl Linnaeus in 1758.A molecular phylogenetic study published in 2019 found that species in the genera Scotopelia and Ketupa were embedded within the clade containing members of the genus Bubo. Thus, the genus Bubo as currently defined is paraphyletic.Systematics of which species to include among the horned owls is in an upheaval at present. While Mitochondrial DNA (mtDNA) cytochrome b sequence data favors the decision by some to regard the snowy owl as an eagle-owl adapted to Arctic conditions, moving it into Bubo, this is not accepted by all authorities, many still preferring Nyctea.Likewise disagreement exists over the decision by some to move the four fish-owls previously in the genus Ketupa provisionally into Bubo as well, which introduces a good bit of confusion. While the mtDNA cytochrome b data suggests that in this case, to make Bubo monophyletic the Scotopelia fishing owls would also need to be included there. On the other hand, the genus then becomes quite large and ill-defined, and Bubo in the expanded sense seems to consist of two distinct clades. Thus, the fish and fishing owls can alternatively be united in Ketupa if some aberrant eagle-owls – at least the barred, spot-bellied and Usambara eagle-owls, perhaps also Fraser's eagle-owl and maybe others – are moved into that genus too. As some enigmatic eagle-owls remain essentially unstudied and others – e.g. Verreaux's eagle-owl – are of unresolved relationships, more research is needed.
+
+
+=== Species ===
+The genus contains 19 extant species:
+Snowy owl, Bubo scandiacus
+Great horned owl, Bubo virginianus
+Lesser horned owl, Bubo magellanicus
+Eurasian eagle-owl, Bubo bubo
+Indian eagle-owl, Bubo bengalensis
+Pharaoh eagle-owl, Bubo ascalaphus
+Cape eagle-owl, Bubo capensis
+Arabian eagle-owl, Bubo milesi
+Greyish eagle-owl, Bubo cinerascens
+Spotted eagle-owl, Bubo africanus
+Fraser's eagle-owl, Bubo poensis
+Usambara eagle-owl, Bubo poensis vosseleri
+Verreaux's eagle-owl, Bubo lacteus
+Shelley's eagle-owl, Bubo shelleyi
+Barred eagle-owl, Bubo sumatranus
+Spot-bellied eagle-owl, Bubo nipalensis
+Dusky eagle-owl, Bubo coromandus
+Akun eagle-owl, Bubo leucostictus
+Philippine eagle-owl, Bubo philippensis
+Blakiston's fish owl, Bubo blakistoni
+Sometimes included in this genus:
+
+Brown fish owl, Ketupa zeylonensis
+Tawny fish owl, Ketupa flavipes
+Buffy fish owl, Ketupa ketupu
+Pel's fishing owl, Scotopelia peli
+Rufous fishing owl, Scotopelia ussheri
+Vermiculated fishing owl, Scotopelia bouvieri
+
+
+=== Fossil record ===
+Named and distinct Bubo species are:
+
+Bubo florianae (Late Miocene of Csákvár, Hungary, tentatively placed here)
+Bubo leakeyae (Early Pleistocene of Tanzania)
+Bubo binagadensis (Late Pleistocene of Binagady, Azerbaijan)
+Bubo osvaldoi (Pleistocene of Cuba)
+Bubo insularis (Pleistocene of Sardinia)Some notable undescribed fossils of prehistoric horned owls, usually quite fragmentary remains, have also been recorded:
+
+Bubo sp. (Late Pliocene of Senèze, France)
+Bubo sp. (Late Pliocene of Rębielice Królewskie, Poland; tentatively placed here)
+Bubo sp. (Late Pleistocene of San Josecito Cavern, Mexico)Specimen UMMP V31030, a Late Pliocene coracoid from the Rexroad Formation of Kansas (USA), cannot be conclusively assigned to either Bubo or Strix. This fossil is from a taxon similar in size to the great horned owl (B. virginianus) or the great grey owl (S. nebulosa).The Sinclair owl (Bubo sinclairi) from Late Pleistocene California may have been a paleosubspecies of the great horned owl, while the roughly contemporary Bubo insularis of the central and eastern Mediterranean has been considered a junior synonym of a brown fish owl paleosubspecies. Additional paleosubspecies are discussed on the appropriate species page.
+Several presumed Bubo fossils have turned out to be from different birds. The Late Eocene/Early Oligocene eared owls "Bubo" incertus and "Bubo" arvernensis are now placed in the fossil barn-owl genera Nocturnavis and Necrobyas, respectively. "Bubo" leptosteus is now recognized as primitive owl in the genus Minerva (formerly Protostrix). "Bubo" poirreiri from the Late Oligocene or Early Miocene of Saint-Gérard-le-Puy in France, is now placed in Mioglaux.
+On the other hand, the supposed fossil heron "Ardea" lignitum from the Late Pliocene of Plaue-Rippersroda (Germany) was apparently an owl and close to Bubo or more probably actually belongs here. Given its age – about 2 million years ago or so – it is usually included in the Eurasian eagle-owl today.
+
+
+== Interactions with humans ==
+Because of their nocturnal habits, most owls do not directly interact with humans. However, in 2015, an eagle owl in Purmerend, Netherlands, attacked some fifty humans before it was caught by a hired falconer.
+
+
+== Footnotes ==
+
+
+== References ==
+Feduccia, J. Alan; Ford, Norman L. (1970). "Some birds of prey from the Upper Pliocene of Kansas" (PDF). Auk. 87 (4): 795–797. doi:10.2307/4083714. JSTOR 4083714.
+Howard, Hildegarde (1947). "A preliminary survey of trends in avian evolution from Pleistocene to recent time" (PDF). Condor. 49 (1): 10–13. doi:10.2307/1364422. JSTOR 1364422.
+König, Claus; Weick, Friedhelm & Becking, Jan-Hendrik (1999): Owls: A guide to the owls of the world. Yale University Press, New Haven. ISBN 978-0-300-07920-3
+Lambrecht, Kálmán (1933): Handbuch der Palaeornithologie [Handbook of Paleornithology]. Gebrüder Bornträger, Berlin. [in German]
+Mlíkovský, Jiří (2002): Cenozoic Birds of the World, Part 1: Europe. Ninox Press, Prague.
+Mlíkovský, Jiří (2003). "Brown Fish Owl (Bubo zeylonensis) in Europe: past distribution and taxonomic status" (PDF). Buteo. 13: 61–65. Archived from the original (PDF) on 2007-09-27. Retrieved 2008-09-19.
+Olsen, Jery; Wink, Michael; Sauer-Gürth, Heidi; Trost, Susan (2002). "A new Ninox owl from Sumba, Indonesia" (PDF). Emu. 102 (3): 223–231. doi:10.1071/MU02006. S2CID 86526031. Archived from the original (PDF) on 2009-09-30. Retrieved 2006-12-23.
+Olson, Storrs L. (1985): The fossil record of birds. In: Farner, D.S.; King, J.R. & Parkes, Kenneth C. (eds.): Avian Biology 8: 79–238. Academic Press, New York.
+Pavia, Marco (1999). "Un cranio di Bubo insularis Mourer-Chauviré & Weesie, 1986 (Aves, Strigidae) nelle brecce ossifere del Pleistocene di Capo Figari (Sardegna, Italia)" [A cranium of B. insularis from the Pleistocene ossiferous breccia of Cape Figari (Sardinia, Italy)] (PDF). Atti della Accademia delle Scienze di Torino, Classe di Scienze Fisiche, Matematiche e Naturali (in Italian and English). 133: 1–10.
+Steadman, David William; Arroyo-Cabrales, Joaquin; Johnson, Eileen; Guzman, A. Fabiola (1994). "New Information on the Late Pleistocene Birds from San Josecito Cave, Nuevo León, Mexico" (PDF). Condor. 96 (3): 577–589. doi:10.2307/1369460. JSTOR 1369460.
+
+
+== External links ==
+ Media related to Bubo at Wikimedia Commons
