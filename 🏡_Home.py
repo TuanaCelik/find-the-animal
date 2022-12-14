@@ -32,6 +32,8 @@ def create_answer_objects(predictions):
     return results
 
 def main():
+    st.set_page_config(page_title="Home", page_icon="🏡")
+
     build_sidebar()
 
     set_state_if_absent("statement", "What is the fastest animal?")
