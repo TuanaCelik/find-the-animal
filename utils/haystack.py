@@ -73,7 +73,7 @@ pipe = start_haystack()
 
 @st.cache(allow_output_mutation=True)
 def query(statement: str, text_retriever_top_k: int = 5, image_retriever_top_k = 1):
-    """Run query and verify statement"""
+    """Run query"""
     params = {"image_retriever": {"top_k": image_retriever_top_k},"text_retriever": {"top_k": text_retriever_top_k} }
     results = pipe.run(statement, params=params)
     return results
