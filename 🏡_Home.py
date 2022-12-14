@@ -6,7 +6,7 @@ from PIL import Image
 from markdown import markdown
 from annotated_text import annotation
 from utils.haystack import query
-from utils.frontend import reset_results, set_state_if_absent
+from utils.frontend import reset_results, set_state_if_absent, build_sidebar
 
 def create_answer_objects(predictions):
     results = []
@@ -32,6 +32,7 @@ def create_answer_objects(predictions):
     return results
 
 def main():
+    build_sidebar()
 
     set_state_if_absent("statement", "What is the fastest animal?")
     set_state_if_absent("results", None)

@@ -40,6 +40,7 @@ def start_haystack():
         faiss_index_path=f"{INDEX_DIR}/images.faiss",
         faiss_config_path=f"{INDEX_DIR}/images.json",
     )
+    
     retriever_text = EmbeddingRetriever(
         document_store=document_store_text,
         embedding_model="sentence-transformers/multi-qa-mpnet-base-dot-v1",
