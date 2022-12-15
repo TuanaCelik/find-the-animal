@@ -53,8 +53,8 @@ These strings are then ranked and the most likely one is sent over to the
 that contains CLIP, which will use its own document store of images to find all the pictures that match the string. 
 Cheetah are present in the Lisbon zoo, so it will find pictures of them and return them.
 
-These nodes are chained together using a Pipeline object, so that all you need to do to run
-a system like this is a single call: `pipeline.run(query="What's the fastest animal?")` 
+These nodes are chained together using a [Pipeline](https://docs.haystack.deepset.ai/docs/pipelines) object, 
+so that all you need to do to run a system like this is a single call: `pipeline.run(query="What's the fastest animal?")` 
 will return the list of images directly. 
 Have a look at [how we implemented it](https://github.com/TuanaCelik/find-the-animal/blob/main/utils/haystack.py)!
 """)
