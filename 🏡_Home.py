@@ -40,7 +40,8 @@ def main():
     st.write("# Look for images with MultiModalRetrieval 🐅")
     st.markdown(
         """
-    ##### Enter a question about animals
+    ##### Ask a question about animals in the Lisbon Zoo:
+    To learn more about this demo, check out the ⭐️ Info section
     """
     )
     # Search bar
