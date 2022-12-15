@@ -47,7 +47,7 @@ def start_haystack():
         model_format="sentence_transformers",
     )
 
-    reader = FARMReader(model_name_or_path="deepset/roberta-base-squad2", use_gpu=True)
+    reader = FARMReader(model_name_or_path="deepset/deberta-v3-base-squad2", use_gpu=True)
     
 
     retriever_images = MultiModalRetriever(
