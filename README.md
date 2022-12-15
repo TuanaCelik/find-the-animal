@@ -1,6 +1,6 @@
 ---
 title: MultiModalRetrival for Image Search
-emoji: 😽
+emoji: 🦒
 colorFrom: green
 colorTo: yellow
 sdk: streamlit
