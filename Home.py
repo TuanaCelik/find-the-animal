@@ -47,13 +47,8 @@ def main():
     statement = st.text_input(
         "", value=st.session_state.statement, max_chars=100, on_change=reset_results
     )
-        
-    col1, col2 = st.columns(2)
-    col1.markdown(
-        "<style>.stButton button {width:100%;}</style>", unsafe_allow_html=True
-    )
    
-    run_pressed = col1.button("Run")
+    run_pressed = st.button("Run")
 
     run_query = (
         run_pressed or statement != st.session_state.statement
