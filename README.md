@@ -1,5 +1,5 @@
 ---
-title: MultiModalRetrival for Image Search
+title: MultiModalRetrieval for Image Search
 emoji: 🦒
 colorFrom: green
 colorTo: yellow
