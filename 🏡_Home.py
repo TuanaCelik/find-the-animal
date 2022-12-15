@@ -37,7 +37,8 @@ build_sidebar()
 set_state_if_absent("statement", "What is the fastest animal?")
 set_state_if_absent("results", None)
 
-st.write("# Look for images with MultiModalRetrieval 🐅")
+st.write("# Search for animals at Lisbon Zoo with MultiModalRetrieval 🐅")
+st.write("Disclaimer: This demo will produce odd results if the Lisbon Zoo does not have said animal 🙈 - Stay tuned for improvements")
 st.markdown(
     """
 ##### Ask a question about animals in the Lisbon Zoo:
