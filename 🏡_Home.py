@@ -31,72 +31,67 @@ def create_answer_objects(predictions):
             )
     return results
 
-def main():
-    build_sidebar()
 
-    set_state_if_absent("statement", "What is the fastest animal?")
-    set_state_if_absent("results", None)
+build_sidebar()
 
-    st.write("# Look for images with MultiModalRetrieval 🐅")
-    st.markdown(
-        """
-    ##### Ask a question about animals in the Lisbon Zoo:
-    To learn more about this demo, check out the ⭐️ Info section
+set_state_if_absent("statement", "What is the fastest animal?")
+set_state_if_absent("results", None)
+
+st.write("# Look for images with MultiModalRetrieval 🐅")
+st.markdown(
     """
-    )
-    # Search bar
-    statement = st.text_input(
-        "", value=st.session_state.statement, max_chars=100, on_change=reset_results
-    )
-   
-    run_pressed = st.button("Run")
+##### Ask a question about animals in the Lisbon Zoo:
+To learn more about this demo, check out the ⭐️ Info section
+"""
+)
+# Search bar
+statement = st.text_input(
+    "", value=st.session_state.statement, max_chars=100, on_change=reset_results
+)
 
-    run_query = (
-        run_pressed or statement != st.session_state.statement
-    )
+run_pressed = st.button("Run")
 
-    # Get results for query
-    if run_query and statement:
-        time_start = time.time()
-        reset_results()
-        st.session_state.statement = statement
-        with st.spinner("🔎 🐼🐷🦊 &nbsp;&nbsp; Looking for the right animal"):
-            try:
-                docs = query(statement)
-                for doc in docs["documents"]:
-                    image = Image.open(doc.content)
-                    st.image(image)
-                st.session_state.results = create_answer_objects(docs["answers"])
-                print(f"S: {statement}")
-                time_end = time.time()
-                print(time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime()))
-                print(f"elapsed time: {time_end - time_start}")
-            except JSONDecodeError as je:
-                st.error(
-                    "👓 &nbsp;&nbsp; An error occurred reading the results. Is the document store working?"
-                )
-                return
-            except Exception as e:
-                logging.exception(e)
-                st.error("🐞 &nbsp;&nbsp; An error occurred during the request.")
-                return
-    
-    if st.session_state.results:
-        st.write('## Why this image?')
-        answers = st.session_state.results
-        for count, answer in enumerate(answers):
-            if answer["answer"]:
-                text, context = answer["answer"], answer["context"]
-                start_idx = context.find(text)
-                end_idx = start_idx + len(text)
-                st.write(
-                    markdown(context[:start_idx] + str(annotation(body=text, label="ANSWER", background="#964448", color='#ffffff')) + context[end_idx:]),
-                    unsafe_allow_html=True,
-                )
-                st.markdown(f"**Relevance:** {answer['relevance']}")
-            else:
-                st.info(
-                    "🤔 &nbsp;&nbsp; Haystack is unsure whether any of the documents contain an answer to your question. Try to reformulate it!"
-                )
+run_query = (
+    run_pressed or statement != st.session_state.statement
+)
 
-main()
+# Get results for query
+if run_query and statement:
+    time_start = time.time()
+    reset_results()
+    st.session_state.statement = statement
+    with st.spinner("🔎 🐼🐷🦊 &nbsp;&nbsp; Looking for the right animal"):
+        try:
+            docs = query(statement)
+            for doc in docs["documents"]:
+                image = Image.open(doc.content)
+                st.image(image)
+            st.session_state.results = create_answer_objects(docs["answers"])
+            time_end = time.time()
+        except JSONDecodeError as je:
+            st.error(
+                "👓 &nbsp;&nbsp; An error occurred reading the results. Is the document store working?"
+            )
+            
+        except Exception as e:
+            logging.exception(e)
+            st.error("🐞 &nbsp;&nbsp; An error occurred during the request.")
+            
+
+if st.session_state.results:
+    st.write('## Why this image?')
+    answers = st.session_state.results
+    for count, answer in enumerate(answers):
+        if answer["answer"]:
+            text, context = answer["answer"], answer["context"]
+            start_idx = context.find(text)
+            end_idx = start_idx + len(text)
+            st.write(
+                markdown(context[:start_idx] + str(annotation(body=text, label="ANSWER", background="#964448", color='#ffffff')) + context[end_idx:]),
+                unsafe_allow_html=True,
+            )
+            st.markdown(f"**Relevance:** {answer['relevance']}")
+        else:
+            st.info(
+                "🤔 &nbsp;&nbsp; Haystack is unsure whether any of the documents contain an answer to your question. Try to reformulate it!"
+            )
