@@ -7,7 +7,7 @@ st.markdown("""
 # Better Image Retrieval With Retrieval-Augmented CLIP 🧠
 
 
-CLIP is a neural network that can predict how semantically close images and text pairs are. 
+[CLIP](https://openai.com/blog/clip/) is a neural network that can predict how semantically close images and text pairs are. 
 In simpler terms, it can tell that the string "Cat" is closer to images of cats rather than images of dogs.
 
 What makes CLIP so powerful is that is a zero-shot model: that means that it can generalize concepts,
