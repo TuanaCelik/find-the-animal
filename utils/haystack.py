@@ -40,7 +40,7 @@ def start_haystack():
         faiss_index_path=f"{INDEX_DIR}/images.faiss",
         faiss_config_path=f"{INDEX_DIR}/images.json",
     )
-    
+
     retriever_text = EmbeddingRetriever(
         document_store=document_store_text,
         embedding_model="sentence-transformers/multi-qa-mpnet-base-dot-v1",
@@ -73,8 +73,8 @@ def start_haystack():
 pipe = start_haystack()
 
 @st.cache(allow_output_mutation=True)
-def query(statement: str, text_retriever_top_k: int = 5, image_retriever_top_k = 1):
+def query(statement: str, text_reader_top_k: int = 5):
     """Run query"""
-    params = {"image_retriever": {"top_k": image_retriever_top_k},"text_retriever": {"top_k": text_retriever_top_k} }
+    params = {"text_reader": {"top_k": text_reader_top_k},"image_retriever": {"top_k": 1},"text_retriever": {"top_k": 5} }
     results = pipe.run(statement, params=params)
     return results
