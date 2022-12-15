@@ -5,6 +5,6 @@ colorFrom: green
 colorTo: yellow
 sdk: streamlit
 sdk_version: 1.10.0
-app_file: Home.py
+app_file: 🏡_Home.py
 pinned: false
 ---
