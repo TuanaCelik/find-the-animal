@@ -26,7 +26,7 @@ class AnswerToQuery(BaseComponent):
 )
 def start_haystack():
     """
-    load document store, retriever, entailment checker and create pipeline
+    load document store, retrievers for images and text, reader and create pipeline
     """
     shutil.copy(f"{INDEX_DIR}/text.db", ".")
     shutil.copy(f"{INDEX_DIR}/images.db", ".")
